@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let btn: UIButton = UIButton()
+        view.addSubview(btn)
+        
+        btn.setTitle("点击我", forState: .Normal)
+        btn.setTitleColor(UIColor.redColor(), forState: .Normal)
     }
 
     override func didReceiveMemoryWarning() {
