@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor.yellowColor()
+        
         let btn: UIButton = UIButton()
         view.addSubview(btn)
+        btn.frame = CGRect(x: 100, y: 100, width: 150, height: 50)
         
         btn.setTitle("点击我", forState: .Normal)
         btn.setTitleColor(UIColor.redColor(), forState: .Normal)
