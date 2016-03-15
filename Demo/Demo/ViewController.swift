@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         btn.becomeFirstResponder()
         
         print("test")
+        print("xxxxxx")
     }
 
     override func didReceiveMemoryWarning() {
