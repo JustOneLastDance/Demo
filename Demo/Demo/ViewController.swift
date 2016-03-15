@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         btn.setTitleColor(UIColor.redColor(), forState: .Normal)
         
         btn.becomeFirstResponder()
+        
+        print("test")
     }
 
     override func didReceiveMemoryWarning() {
