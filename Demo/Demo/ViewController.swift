@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.blueColor()
+        view.backgroundColor = UIColor.yellowColor()
         
         let btn: JustinButton = JustinButton()
         view.addSubview(btn)
