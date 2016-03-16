@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.yellowColor()
         
+        print("test")
+        
         let btn: JustinButton = JustinButton()
         view.addSubview(btn)
         btn.frame = CGRect(x: 100, y: 100, width: 150, height: 50)
